@@ -6,6 +6,14 @@ public static class TwoFer
     // can be called both without any arguments and also by passing one string argument.
     public static string Speak()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return ("One for you, one for me.");
+        
+        //throw new NotImplementedException("You need to implement this function.");
+    }
+    public static string Speak(string x)
+    {
+        return ("One for you, one for me.");
+
+        //throw new NotImplementedException("You need to implement this function.");
     }
 }
