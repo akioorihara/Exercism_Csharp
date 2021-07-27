@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\hello-world",
-    "\\two-fer"
+    "\\resistor-color"
   ],
-  "SelectedNode": "\\hello-world\\HelloWorld.cs",
+  "SelectedNode": "\\resistor-color\\ResistorColorTests.cs",
   "PreviewInSolutionExplorer": false
 }
