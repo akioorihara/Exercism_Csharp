@@ -8,7 +8,8 @@ public class SpaceAge
 
     public double OnEarth()
     {
-
+        double Earth = 1000000000.00 / 31536000.00;
+        return Earth; 
         //throw new NotImplementedException("You need to implement this function.");
     }
 
