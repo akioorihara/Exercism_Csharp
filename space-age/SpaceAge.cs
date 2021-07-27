@@ -8,7 +8,8 @@ public class SpaceAge
 
     public double OnEarth()
     {
-        throw new NotImplementedException("You need to implement this function.");
+
+        //throw new NotImplementedException("You need to implement this function.");
     }
 
     public double OnMercury()
