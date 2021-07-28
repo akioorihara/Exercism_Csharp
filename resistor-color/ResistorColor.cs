@@ -4,7 +4,7 @@ public static class ResistorColor
 {
     public static int ColorCode(string color)
     {
-        color.ToLower();
+        color = color.ToLower();
         if (color == "black")
             return 0;
         else if (color == "brown")
