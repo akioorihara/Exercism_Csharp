@@ -4,7 +4,9 @@ using System.Linq;
 
 public class HighScores
 {
-    List<int> list = new List<int>(); 
+    List<int> list; 
+    //List<int> list = new List<int>(); 
+    //I thought this is how I have to do this to create an empty list 
     
     public HighScores(List<int> list)
     {
@@ -15,8 +17,8 @@ public class HighScores
         // Console.WriteLine(max);
         // // return max;
 
-        List<int> listv2 = new List<int>(); 
-        this.list = listv2; 
+        // List<int> listv2 = new List<int>(); 
+        this.list = list; 
 
 
         // throw new NotImplementedException();
@@ -31,7 +33,8 @@ public class HighScores
         // foreach(int i in list ){
         //     Console.Write(i);
         // }
-        throw new NotImplementedException();
+        return list;
+        // throw new NotImplementedException();
     }
 
     public int Latest()
@@ -47,11 +50,27 @@ public class HighScores
 
     public int PersonalBest()
     {
-        throw new NotImplementedException();
+
+        return list.Max();
+        // throw new NotImplementedException();
     }
 
     public List<int> PersonalTopThree()
     {
-        throw new NotImplementedException();
+        List<int> v2 = new List<int>();
+        int last = list.Count-1; 
+        int second = list.Count-2;
+        int  third = list.Count-3; 
+        // return list[last], list[second], list[third];
+        list.Sort();
+        last = list[last];
+        second = list[second];
+        third = list[third];
+        v2.Add(last);
+        v2.Add(second);
+        v2.Add(third);
+
+        return v2; 
+        // throw new NotImplementedException();
     }
 }
