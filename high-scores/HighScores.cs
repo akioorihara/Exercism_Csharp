@@ -58,6 +58,13 @@ public class HighScores
     public List<int> PersonalTopThree()
     {
         List<int> v2 = new List<int>();
+        if (list.Count == 1){
+            list.Sort();
+            int l = list.Count-1; 
+            v2.Add(list[l]);
+            return v2;
+        }
+
         int last = list.Count-1; 
         int second = list.Count-2;
         int  third = list.Count-3; 
