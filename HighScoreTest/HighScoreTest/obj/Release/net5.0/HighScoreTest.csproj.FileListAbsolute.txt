@@ -1,0 +1,14 @@
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/HighScoreTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/HighScoreTest.AssemblyInfoInputs.cache
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/HighScoreTest.AssemblyInfo.cs
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/HighScoreTest.csproj.CoreCompileInputs.cache
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/bin/Release/net5.0/HighScoreTest.deps.json
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/bin/Release/net5.0/HighScoreTest.runtimeconfig.json
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/bin/Release/net5.0/HighScoreTest.runtimeconfig.dev.json
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/bin/Release/net5.0/HighScoreTest.dll
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/bin/Release/net5.0/ref/HighScoreTest.dll
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/bin/Release/net5.0/HighScoreTest.pdb
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/HighScoreTest.dll
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/ref/HighScoreTest.dll
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/HighScoreTest.pdb
+/Users/Akio/Documents/GitHub/Exercism_Csharp/HighScoreTest/HighScoreTest/obj/Release/net5.0/HighScoreTest.genruntimeconfig.cache

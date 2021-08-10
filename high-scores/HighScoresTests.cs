@@ -12,14 +12,14 @@ public class HighScoresTests
         Assert.Equal(new List<int> { 30, 50, 20, 70 }, sut.Scores());
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Latest_score()
     {
         var sut = new HighScores(new List<int> { 100, 0, 90, 30 });
         Assert.Equal(30, sut.Latest());
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Personal_best()
     {
         var sut = new HighScores(new List<int> { 40, 100, 70 });
