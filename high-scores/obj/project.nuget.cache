@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yWBf81FvhRRBF5p4YmtI5vOXFYHSZM69OaWUBkqRvQU+W+JmO95M3VShTzk/9vK2Znk3TcNlBxPS4hkQW2l2TA==",
+  "dgSpecHash": "2f9mBg/xVinQ5Td8KCxfK1rEQDhm/Mp920i8p7lBkuP3vqORsajWgI1inKSZ27gCTmayEDAgdsE3XB43xejJww==",
   "success": true,
   "projectFilePath": "C:\\Users\\aorihara\\Exercism\\csharp\\high-scores\\HighScores.csproj",
   "expectedPackageFiles": [

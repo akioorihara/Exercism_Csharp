@@ -4,17 +4,17 @@ public static class Hamming
 {
     public static int Distance(string firstStrand, string secondStrand)
     {
-        if(firstStrand.Length != secondStrand.Length)
-            break;
+        //if(firstStrand.Length != secondStrand.Length)
+        //    break;
 
-
+        int i = 0;
         int counter = 0; 
         string charString = "CAGT";
         foreach(char c in firstStrand)
         {
-            int i = 0;
-            //if(firstStrand[i] != secondStrand[i])
-            if(firstStrand[i] != secondStrand[i] && charString.Contains(char.ToUpper(c)))
+            
+            if (firstStrand[i] != secondStrand[i])
+            //if(firstStrand[i] != secondStrand[i] && charString.Contains(char.ToUpper(c)))
             {
                 counter += 1; 
             }
