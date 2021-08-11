@@ -55,8 +55,13 @@ public class HighScores
         // throw new NotImplementedException();
     }
 
+
+
+   
     public List<int> PersonalTopThree()
     {
+
+        /*
         List<int> v2 = new List<int>();
         if (list.Count == 1){
             list.Sort();
@@ -64,11 +69,43 @@ public class HighScores
             v2.Add(list[l]);
             return v2;
         }
+        else if (list.Count == 2)
+        {
+            list.Sort();
+            int l = list.Count-1; 
+            int v = list.Count-2;
+            v2.Add(list[l]);
+            v2.Add(list[v]);
+            return v2; 
+        }
 
         int last = list.Count-1; 
         int second = list.Count-2;
         int  third = list.Count-3; 
         // return list[last], list[second], list[third];
+
+        
+        int one = 0;
+        int two = 0;
+        int three = 0; 
+        int temp = 0;    
+        //Find Top Val 
+        foreach(int i in list)
+        {
+            if(Math.Max(i,one) == i)
+                one = i;
+        }
+
+        //Find the second top val 
+        foreach(int i in list)
+        {
+            if(one > i) { 
+                if(Math.Max(two, i) == i)
+                    two = i; 
+            }
+        }
+
+         
         list.Sort();
         last = list[last];
         second = list[second];
@@ -78,6 +115,22 @@ public class HighScores
         v2.Add(third);
 
         return v2; 
-        // throw new NotImplementedException();
+
+        */ 
+        //throw new NotImplementedException();
+       // return list; 
+    } 
+}
+
+
+/*
+ *  [Fact]
+    public void Latest_score_should_not_change_after_calling_personal_top_three()
+    {
+        var sut = new HighScores(new List<int> { 20, 100, 30, 90, 2, 70 });
+        Assert.Equal(new List<int> { 100, 90, 70 }, sut.PersonalTopThree());
+        Assert.Equal(70, sut.Latest());
     }
 }
+ * 
+ */
