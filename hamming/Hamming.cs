@@ -4,8 +4,9 @@ public static class Hamming
 {
     public static int Distance(string firstStrand, string secondStrand)
     {
-        //if(firstStrand.Length != secondStrand.Length)
-        //    break;
+        if(firstStrand.Length != secondStrand.Length){
+            throw new ArgumentException("Not the same length!");
+        } 
 
         int i = 0;
         int counter = 0; 
