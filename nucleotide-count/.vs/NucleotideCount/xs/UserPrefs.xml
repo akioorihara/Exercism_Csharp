@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{7CE921E8-97C5-469D-A492-5E9A66CDE772}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NucleotideCount.cs">
+    <Files>
+      <File FileName="NucleotideCount.cs" Line="9" Column="8" />
+      <File FileName="NucleotideCountTests.cs" Line="38" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NucleotideCount" expanded="True">
+            <Node name="NucleotideCount" expanded="True">
+              <Node name="NucleotideCount.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NucleotideCount PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

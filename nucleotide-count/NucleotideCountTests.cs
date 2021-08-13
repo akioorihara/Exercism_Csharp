@@ -19,7 +19,7 @@ public class NucleotideCountTests
         Assert.Equal(expected, NucleotideCount.Count(""));
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Can_count_one_nucleotide_in_single_character_input()
     {
         var expected = new Dictionary<char, int>
