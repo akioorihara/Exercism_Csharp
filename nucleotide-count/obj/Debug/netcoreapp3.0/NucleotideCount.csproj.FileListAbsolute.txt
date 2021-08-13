@@ -1,0 +1,5 @@
+/Users/Akio/Documents/GitHub/Exercism_Csharp/nucleotide-count/obj/Debug/netcoreapp3.0/NucleotideCount.csproj.AssemblyReference.cache
+/Users/Akio/Documents/GitHub/Exercism_Csharp/nucleotide-count/obj/Debug/netcoreapp3.0/NucleotideCount.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Akio/Documents/GitHub/Exercism_Csharp/nucleotide-count/obj/Debug/netcoreapp3.0/NucleotideCount.AssemblyInfoInputs.cache
+/Users/Akio/Documents/GitHub/Exercism_Csharp/nucleotide-count/obj/Debug/netcoreapp3.0/NucleotideCount.AssemblyInfo.cs
+/Users/Akio/Documents/GitHub/Exercism_Csharp/nucleotide-count/obj/Debug/netcoreapp3.0/NucleotideCount.csproj.CoreCompileInputs.cache

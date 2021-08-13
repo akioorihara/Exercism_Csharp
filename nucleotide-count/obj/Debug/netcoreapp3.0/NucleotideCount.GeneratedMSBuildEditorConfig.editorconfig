@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NucleotideCount
+build_property.ProjectDir = /Users/Akio/Documents/GitHub/Exercism_Csharp/nucleotide-count/
