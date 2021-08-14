@@ -17,27 +17,15 @@ public static class NucleotideCount
 
         for(int i = 0; i < sequence.Length; i++)
         {
-            sequence;
-
-            if (dict.ContainsKey('A'))
+            
+            if (dict.ContainsKey(sequence[i]))
             {
-                dict['A'] += 1;  
+                dict[sequence[i]]++;  
 
             }
-            if (dict.ContainsKey('C'))
+            else
             {
-                dict['C'] += 1;
-
-            }
-            if (dict.ContainsKey('G'))
-            {
-                dict['G'] += 1;
-
-            }
-            if (dict.ContainsKey('T'))
-            {
-                dict['T'] += 1;
-
+                throw new ArgumentException("Invalid Nuceotides");
             }
 
         }
