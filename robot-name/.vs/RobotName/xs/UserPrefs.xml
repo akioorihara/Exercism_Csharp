@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{DEF4365D-F035-4951-B242-B602B95850C9}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RobotName.cs">
     <Files>
-      <File FileName="RobotName.cs" Line="13" Column="10" />
-      <File FileName="RobotNameTests.cs" />
+      <File FileName="RobotName.cs" Line="20" Column="45" />
+      <File FileName="RobotNameTests.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
