@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1/l84t/hDqIzgLCfZIZFznIKeu+xowEAESe9jYh4JXsthVmPQzvqPHNh3a62LGzwWAD0jqBNC5gi2xWiJycgvg==",
+  "dgSpecHash": "rzY6DAFuXnMkF55hJq1YFFBwlmo6wdkq0pUpOjiLTBy1G9z+AOpv3EqhlKv94xWeuPJW4a9EryYCDGKmMB1Nzg==",
   "success": true,
   "projectFilePath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/robot-name/RobotName.csproj",
   "expectedPackageFiles": [
@@ -95,8 +95,8 @@
     "/Users/Akio/.nuget/packages/xunit.extensibility.core/2.4.1/xunit.extensibility.core.2.4.1.nupkg.sha512",
     "/Users/Akio/.nuget/packages/xunit.extensibility.execution/2.4.1/xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "/Users/Akio/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "/Users/Akio/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "/Users/Akio/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+    "/Users/Akio/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/Users/Akio/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],
   "logs": []
 }

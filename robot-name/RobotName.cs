@@ -2,25 +2,39 @@ using System;
 
 public class Robot
 {
-    //public static string name;
-    Random rand = new Random();
-    rand.Next(10); 
+    private static string name;
+    Random rand = new Random(); //seading?
+    private static int digit;
+    //digit = 001; 
+    //rand.Next(10); 
 
     public string Name
     {
-        //var rand = new Random();
-        get
+        get  //how can I use this function? and do i need a set function as well?  
         {
-            return Name; 
+            digit += 1; //int digit;
+            digit = 100;
+            for(int i = 0; i < 2; i++)
+            {
+                char randomChar = (char)rand.Next('a', 'z');
+                //name.Insert(0,randomChar);
+            }
+   
+            name = "AA";
+
+            return String.Concat(name, digit); 
             //throw new NotImplementedException("You need to implement this function.");
         }
+        //set
+        //{
+        //    name = value;
+        //}
     }
 
     public void Reset()
     {
         throw new NotImplementedException("You need to implement this function.");
     }
+    
 }
-
-
-//Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Name);
+//Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Nasme);
