@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{DEF4365D-F035-4951-B242-B602B95850C9}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RobotName.cs">
     <Files>
-      <File FileName="RobotName.cs" Line="20" Column="45" />
-      <File FileName="RobotNameTests.cs" Line="1" Column="1" />
+      <File FileName="RobotName.cs" Line="29" Column="1" />
+      <File FileName="RobotNameTests.cs" Line="33" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +14,21 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>name</Value>
+          <Value>digit</Value>
+        </State>
+      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="RobotName" expanded="True" selected="True" />
+          <Node name="RobotName" expanded="True">
+            <Node name="RobotName" expanded="True">
+              <Node name="RobotNameTests" expanded="True">
+                <Node name="Name_is_the_same_each_time" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

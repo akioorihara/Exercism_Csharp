@@ -1,34 +1,48 @@
 using System;
+using System.Collections.Generic;
 
 public class Robot
 {
     private static string name;
-    Random rand = new Random(); //seading?
     private static int digit;
-    //digit = 001; 
-    //rand.Next(10); 
-
+    private static List<string> list = new List<string>();
+    Random rand = new Random(); //seading
+    
     public string Name
     {
         get  //how can I use this function? and do i need a set function as well?  
         {
-            digit += 1; //int digit;
-            digit = 100;
-            for(int i = 0; i < 2; i++)
-            {
-                char randomChar = (char)rand.Next('a', 'z');
-                //name.Insert(0,randomChar);
-            }
-   
-            name = "AA";
+            //name = "AA";
+            //digit = 100;
+            //digit += 1; 
 
-            return String.Concat(name, digit); 
-            //throw new NotImplementedException("You need to implement this function.");
+            //return String.Concat(name, digit);
+            if (name is null)
+                getNames();
+            return name; 
         }
         //set
         //{
         //    name = value;
         //}
+    }
+
+    private string getNames()
+    {
+        //for(int i = 0; i < 2; i++)
+        //{
+        //    name += ((char)(rand.Next(1, 26) + 64)).ToString().ToUpper();
+        //}
+        //digit = rand.Next(100, 999);
+        if (!list.Contains(name))
+        {
+            name = "AA";
+            digit = 100;
+            digit++;
+
+        }
+
+        return name = String.Concat(name, digit);
     }
 
     public void Reset()
@@ -37,4 +51,4 @@ public class Robot
     }
     
 }
-//Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Nasme);
+//Assert.Equal(robot.Name, robot.Name);

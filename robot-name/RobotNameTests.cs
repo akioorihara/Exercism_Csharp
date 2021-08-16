@@ -10,14 +10,13 @@ public class RobotNameTests
     {
         Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Name);
     }
-
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Name_is_the_same_each_time()
     {
         Assert.Equal(robot.Name, robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Different_robots_have_different_names()
     {
         var robot2 = new Robot();
