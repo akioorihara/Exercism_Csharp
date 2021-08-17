@@ -23,7 +23,7 @@ public class RobotNameTests
         Assert.NotEqual(robot2.Name, robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Can_reset_the_name()
     {
         var originalName = robot.Name;
@@ -31,14 +31,14 @@ public class RobotNameTests
         Assert.NotEqual(originalName, robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void After_reset_the_name_is_valid()
     {
         robot.Reset();
         Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Name);
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Robot_names_are_unique()
     {
         var names = new HashSet<string>();

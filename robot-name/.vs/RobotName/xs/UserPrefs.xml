@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{DEF4365D-F035-4951-B242-B602B95850C9}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RobotName.cs">
     <Files>
-      <File FileName="RobotName.cs" Line="29" Column="1" />
-      <File FileName="RobotNameTests.cs" Line="33" Column="1" />
+      <File FileName="RobotName.cs" Line="77" Column="6" />
+      <File FileName="RobotNameTests.cs" Line="38" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +25,7 @@
           <Node name="RobotName" expanded="True">
             <Node name="RobotName" expanded="True">
               <Node name="RobotNameTests" expanded="True">
-                <Node name="Name_is_the_same_each_time" selected="True" />
+                <Node name="Can_reset_the_name" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -37,7 +37,9 @@
   <MonoDevelop.Ide.ItemProperties.RobotName PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Akio/Documents/GitHub/Exercism_Csharp/robot-name/RobotName.cs" relfile="RobotName.cs" line="77" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
