@@ -43,20 +43,17 @@ public class Robot
         //    name += ((char)(rand.Next(1, 26) + 64)).ToString().ToUpper();
         //}
         //digit = rand.Next(100, 999);
-        if (!list.Contains(name))
-        {
-            name = "AA";
-            digit = 100;
-            digit++;
+        //if (!list.Contains(name))
+        //{
+        //    name = "AA";
+        //    digit = 100;
+        //    digit++;
 
-        }
-
-
-
+        //}
 
         string NewName = GenerateName();
 
-        while (list.Contains(NewName))
+       while (list.Contains(NewName))
         {
             NewName = GenerateName();
         }
@@ -78,8 +75,22 @@ public class Robot
 
     public void Reset()
     {
-        throw new NotImplementedException("You need to implement this function.");
+      
+        if(list.Contains(Name))
+        {
+            list.Remove(Name);
+            Name = GenerateName();
+            list.Add(Name);
+        }
+
+
+        //Name = GenerateName();
+
     }
     
 }
-//Assert.Equal(robot.Name, robot.Name);
+//Reset the name func 
+//var originalName = robot.Name;
+//robot.Reset();
+//Assert.NotEqual(originalName, robot.Name);
+
