@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{DEF4365D-F035-4951-B242-B602B95850C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RobotName.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RobotNameTests.cs">
     <Files>
-      <File FileName="RobotName.cs" Line="77" Column="6" />
-      <File FileName="RobotNameTests.cs" Line="38" Column="23" />
+      <File FileName="RobotName.cs" Line="86" Column="1" />
+      <File FileName="RobotNameTests.cs" Line="32" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RobotName" expanded="True">
             <Node name="RobotName" expanded="True">
-              <Node name="RobotName.cs" selected="True" />
+              <Node name="RobotNameTests.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -18,15 +18,15 @@
         <State>
           <Value>name</Value>
           <Value>digit</Value>
+          <Value>list</Value>
+          <Value>originalName</Value>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="RobotName" expanded="True">
             <Node name="RobotName" expanded="True">
-              <Node name="RobotNameTests" expanded="True">
-                <Node name="Can_reset_the_name" selected="True" />
-              </Node>
+              <Node name="RobotNameTests" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
@@ -37,9 +37,7 @@
   <MonoDevelop.Ide.ItemProperties.RobotName PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Akio/Documents/GitHub/Exercism_Csharp/robot-name/RobotName.cs" relfile="RobotName.cs" line="77" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
