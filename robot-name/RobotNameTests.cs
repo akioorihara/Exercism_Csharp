@@ -26,7 +26,8 @@ public class RobotNameTests
     [Fact]
     public void Can_reset_the_name()
     {
-        var originalName = robot.Name;
+        string originalName = robot.Name;
+        string x = originalName; 
         robot.Reset();
         Assert.NotEqual(originalName, robot.Name);
     }

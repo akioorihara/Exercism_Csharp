@@ -17,6 +17,7 @@ public class Robot_old
                 return PastNames.Last();
         }
     }
+    //Assert.Matches(@"^[A-Z]{2}\d{3}$", robot.Name);
 
     //Store past names used by the Robot.  We must ensure that all robot names generated are unique
     private static List<string> PastNames { get; set; } = new List<string>();
@@ -29,7 +30,7 @@ public class Robot_old
 
     public void Reset()
     {
-        PastNames.Add(GetNewName());
+        PastNames.Add(GetNewName()); // like how compact the sentense 
     }
 
     private string GetNewName()
