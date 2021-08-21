@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{32CD200B-11A3-4E62-AC71-17E39F917EF4}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.Allergies PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Allergies.cs">
+    <Files>
+      <File FileName="Allergies.cs" Line="30" Column="2" />
+      <File FileName="AllergiesTests.cs" Line="21" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Allergies" expanded="True">
+            <Node name="Allergies" expanded="True">
+              <Node name="Allergies.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Mask</Value>
+          <Value>allergen</Value>
+          <Value>list</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Allergies" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

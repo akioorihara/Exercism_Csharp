@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj": {}
+    "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/Allergies.csproj": {}
   },
   "projects": {
-    "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj": {
+    "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/Allergies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj",
+        "projectUniqueName": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/Allergies.csproj",
         "projectName": "Allergies",
-        "projectPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj",
+        "projectPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/Allergies.csproj",
         "packagesPath": "/Users/Akio/.nuget/packages/",
-        "outputPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/obj/",
+        "outputPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/Akio/.config/NuGet/NuGet.Config"
+          "/Users/Akio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
