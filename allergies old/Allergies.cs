@@ -28,7 +28,7 @@ public class Allergies
         if (Mask <= 0)
             return false;
 
-        while (Mask <= 0)
+        while (Mask >= 0)
         {
             if (Mask >= (int)Allergen.Cats) {
                 Mask = Mask - (int)Allergen.Cats;
@@ -72,6 +72,7 @@ public class Allergies
                 Mask = Mask - (int)Allergen.Eggs;
                 list.Add(allergen.ToString());
             }
+
                    
         }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TfoxKLhhXkrMELP8ca0U0/YTMgSb+LpDf2XmW/UAcLTAohKvfjaN2qzkZpYRaJXz9TNToHvZcghkbcSGeBSclw==",
+  "dgSpecHash": "UfIgGEed4B+OsukrHh1iZY1jQObwoVLyWK1yra5JuPO2fyt69V0OaeMRv9qk5wIMcQAU7qkF/esTN/RFJZLGVQ==",
   "success": true,
   "projectFilePath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj",
   "expectedPackageFiles": [
@@ -95,8 +95,8 @@
     "/Users/Akio/.nuget/packages/xunit.extensibility.core/2.4.1/xunit.extensibility.core.2.4.1.nupkg.sha512",
     "/Users/Akio/.nuget/packages/xunit.extensibility.execution/2.4.1/xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "/Users/Akio/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "/Users/Akio/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "/Users/Akio/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+    "/Users/Akio/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/Users/Akio/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],
   "logs": []
 }

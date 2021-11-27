@@ -1,0 +1,33 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="LuciansLusciousLasagna.cs">
+    <Files>
+      <File FileName="LuciansLusciousLasagnaTests.cs" Line="11" Column="6" />
+      <File FileName="LuciansLusciousLasagna.cs" Line="26" Column="60" />
+      <File FileName="README.md" Line="102" Column="1" />
+      <File FileName="HINTS.md" Line="10" Column="45" />
+      <File FileName="HELP.md" Line="15" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LuciansLusciousLasagna" expanded="True">
+            <Node name="LuciansLusciousLasagna" expanded="True">
+              <Node name="LuciansLusciousLasagnaTests" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

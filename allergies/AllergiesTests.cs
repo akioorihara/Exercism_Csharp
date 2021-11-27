@@ -11,14 +11,13 @@ public class AllergiesTests
         Assert.False(sut.IsAllergicTo(Allergen.Eggs));
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Testing_for_eggs_allergy_allergic_only_to_eggs()
     {
         var sut = new Allergies(1);
         Assert.True(sut.IsAllergicTo(Allergen.Eggs));
     }
-
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Testing_for_eggs_allergy_allergic_to_eggs_and_something_else()
     {
         var sut = new Allergies(3);

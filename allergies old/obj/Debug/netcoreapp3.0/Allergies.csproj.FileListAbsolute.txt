@@ -289,3 +289,4 @@ C:/Users/aorihara/Exercism/csharp/allergies/obj/Debug/netcoreapp3.0/Allergies.ge
 /Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/obj/Debug/netcoreapp3.0/Allergies.dll
 /Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/obj/Debug/netcoreapp3.0/Allergies.pdb
 /Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/obj/Debug/netcoreapp3.0/Allergies.genruntimeconfig.cache
+/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies old/bin/Debug/netcoreapp3.0/Allergies.pdb
