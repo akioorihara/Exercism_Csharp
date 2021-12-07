@@ -1,3 +1,31 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{D2D6C1D8-3CFA-48AD-8315-8B0B19342B5B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LogAnalysis.cs">
+    <Files>
+      <File FileName="LogAnalysis.cs" Line="9" Column="1" />
+      <File FileName="LogAnalysisTests.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LogAnalysis" expanded="True">
+            <Node name="LogAnalysis" expanded="True">
+              <Node name="LogAnalysis.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LogAnalysis" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LogAnalysis PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{3137C04F-6EED-4881-A9C8-3908876D4A0D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LogLevels.cs">
     <Files>
-      <File FileName="LogLevels.cs" Line="6" Column="1" />
-      <File FileName="LogLevelsTests.cs" Line="38" Column="1" />
+      <File FileName="LogLevels.cs" Line="12" Column="8" />
+      <File FileName="LogLevelsTests.cs" />
       <File FileName="README.md" />
     </Files>
     <Pads>
@@ -15,17 +15,12 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>error_</Value>
-        </State>
-      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="LogLevels" expanded="True">
             <Node name="LogLevels" expanded="True">
               <Node name="LogLevelsTests" expanded="True">
-                <Node name="Error_log_level" selected="True" />
+                <Node name="Error_message" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -37,9 +32,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Akio/Documents/GitHub/Exercism_Csharp/log-levels/LogLevels.cs" relfile="LogLevels.cs" line="5" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

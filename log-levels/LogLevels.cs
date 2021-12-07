@@ -9,12 +9,21 @@ static class LogLine
         string error_ = "[ERROR]:";
         string result = "";
 
+        private static string GetResult(string logLine, string logLevel)
+        {
+            int i = logLine.IndexOf(logLevel);
+            result = logLine.Remove(i, logLevel.Length);
+            result = result.Trim();
+            return result;
+        }
+
         if (logLine.Contains(error_))
         {
-            int i = logLine.IndexOf(error_);
-            result = logLine.Remove(i, error_.Length);
-            result = result.Trim();
-            return result; 
+            return GetResult(logLine, error_);
+            //int i = logLine.IndexOf(error_);
+            //result = logLine.Remove(i, error_.Length);
+            //result = result.Trim();
+            //return result; 
         }
         else if (logLine.Contains(info_))
         {
