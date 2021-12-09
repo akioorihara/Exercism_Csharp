@@ -4,6 +4,7 @@ static class LogLine
 {
     public static string GetResult(string logLine, string logLevel)
     {
+        string result = "";
         int i = logLine.IndexOf(logLevel);
         result = logLine.Remove(i, logLevel.Length);
         result = result.Trim();
