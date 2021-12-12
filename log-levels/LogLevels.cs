@@ -2,6 +2,15 @@ using System;
 
 static class LogLine
 {
+    public static string GetResult(string logLine, string logLevel)
+    {
+        string result = "";
+        int i = logLine.IndexOf(logLevel);
+        result = logLine.Remove(i, logLevel.Length);
+        result = result.Trim();
+        return result;
+    }
+
     public static string Message(string logLine)
     {
         string info_= "[INFO]:";
@@ -9,6 +18,7 @@ static class LogLine
         string error_ = "[ERROR]:";
         string result = "";
 
+<<<<<<< HEAD
         //private static string GetResult(string logLine, string logLevel)
         //{
         //    int i = logLine.IndexOf(logLevel);
@@ -16,6 +26,9 @@ static class LogLine
         //    result = result.Trim();
         //    return result;
         //}
+=======
+
+>>>>>>> 746073a6bd5224a431fac15e6ca5da13e711db77
 
         if (logLine.Contains(error_))
         {
@@ -104,6 +117,7 @@ static class LogLine
             result = result.Trim();
             int len = result.Length;
             result = result.Insert(len, " (info)");
+            return result;
             return result;
 
         }
