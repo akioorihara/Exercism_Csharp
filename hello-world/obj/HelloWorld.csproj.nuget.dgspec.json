@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aorihara\\Exercism\\csharp\\hello-world\\HelloWorld.csproj": {}
+    "/Users/Akio/Documents/GitHub/Exercism_Csharp/hello-world/HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aorihara\\Exercism\\csharp\\hello-world\\HelloWorld.csproj": {
+    "/Users/Akio/Documents/GitHub/Exercism_Csharp/hello-world/HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aorihara\\Exercism\\csharp\\hello-world\\HelloWorld.csproj",
+        "projectUniqueName": "/Users/Akio/Documents/GitHub/Exercism_Csharp/hello-world/HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\aorihara\\Exercism\\csharp\\hello-world\\HelloWorld.csproj",
-        "packagesPath": "C:\\Users\\aorihara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aorihara\\Exercism\\csharp\\hello-world\\obj\\",
+        "projectPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/hello-world/HelloWorld.csproj",
+        "packagesPath": "/Users/Akio/.nuget/packages/",
+        "outputPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/hello-world/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aorihara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/Akio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,10 +69,6 @@
             {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
