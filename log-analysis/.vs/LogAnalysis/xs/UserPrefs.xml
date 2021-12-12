@@ -1,15 +1,23 @@
 ﻿<Properties StartupConfiguration="{D2D6C1D8-3CFA-48AD-8315-8B0B19342B5B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LogAnalysis.cs">
     <Files>
-      <File FileName="LogAnalysis.cs" Line="17" Column="1" />
-      <File FileName="LogAnalysisTests.cs" />
+      <File FileName="LogAnalysisTests.cs" Line="28" Column="11" />
+      <File FileName="README.md" />
+      <File FileName="LogAnalysis.cs" Line="12" Column="1" />
     </Files>
     <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+      <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LogAnalysis" expanded="True">
-            <Node name="LogAnalysis" selected="True" />
+            <Node name="LogAnalysis" expanded="True">
+              <Node name="LogAnalysis.cs" selected="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LogAnalysis" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -18,7 +26,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Akio/Documents/GitHub/Exercism_Csharp/log-analysis/LogAnalysis.cs" relfile="LogAnalysis.cs" line="7" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
