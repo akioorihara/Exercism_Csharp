@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{D2D6C1D8-3CFA-48AD-8315-8B0B19342B5B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LogAnalysis.cs">
     <Files>
-      <File FileName="LogAnalysis.cs" Line="9" Column="1" />
-      <File FileName="LogAnalysisTests.cs" />
+      <File FileName="LogAnalysis.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
