@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d2d6c1d8-3cfa-48ad-8315-8b0b19342b5b": {
+      "ProjectGuid": "d2d6c1d8-3cfa-48ad-8315-8b0b19342b5b",
+      "DisplayName": "LogAnalysis",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
