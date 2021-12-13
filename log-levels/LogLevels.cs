@@ -18,17 +18,6 @@ static class LogLine
         string error_ = "[ERROR]:";
         string result = "";
 
-<<<<<<< HEAD
-        //private static string GetResult(string logLine, string logLevel)
-        //{
-        //    int i = logLine.IndexOf(logLevel);
-        //    result = logLine.Remove(i, logLevel.Length);
-        //    result = result.Trim();
-        //    return result;
-        //}
-=======
-
->>>>>>> 746073a6bd5224a431fac15e6ca5da13e711db77
 
         if (logLine.Contains(error_))
         {

@@ -13,8 +13,11 @@
         "packagesPath": "/Users/Akio/.nuget/packages/",
         "outputPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/log-analysis/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/Akio/.nuget/NuGet/NuGet.Config"
+          "/Users/Akio/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

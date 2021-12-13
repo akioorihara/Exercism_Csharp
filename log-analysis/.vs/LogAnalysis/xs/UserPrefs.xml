@@ -3,7 +3,7 @@
     <Files>
       <File FileName="LogAnalysisTests.cs" Line="28" Column="11" />
       <File FileName="README.md" />
-      <File FileName="LogAnalysis.cs" Line="12" Column="1" />
+      <File FileName="LogAnalysis.cs" Line="24" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,6 +28,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/Akio/Documents/GitHub/Exercism_Csharp/log-analysis/LogAnalysis.cs" relfile="LogAnalysis.cs" line="7" column="1" />
+      <Breakpoint file="/Users/Akio/Documents/GitHub/Exercism_Csharp/log-analysis/LogAnalysis.cs" relfile="LogAnalysis.cs" line="24" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

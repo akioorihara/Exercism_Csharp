@@ -1,27 +1,13 @@
-﻿<Properties StartupConfiguration="{3137C04F-6EED-4881-A9C8-3908876D4A0D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../usr/local/share/dotnet/sdk/6.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.targets">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="LogLevels.cs">
     <Files>
-      <File FileName="LogLevels.cs" Line="26" Column="27" />
-      <File FileName="LogLevelsTests.cs" />
-      <File FileName="README.md" />
-      <File FileName="../../../../../../usr/local/share/dotnet/sdk/6.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.targets" Line="134" Column="5" />
+      <File FileName="LogLevels.cs" Line="16" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LogLevels" expanded="True">
-            <Node name="LogLevels" expanded="True">
-              <Node name="LogLevels.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="LogLevels" expanded="True" selected="True">
-            <Node name="LogLevels" expanded="True">
-              <Node name="LogLevelsTests" expanded="True" />
-            </Node>
+            <Node name="LogLevels" selected="True" />
           </Node>
         </State>
       </Pad>
