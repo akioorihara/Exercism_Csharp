@@ -43,7 +43,7 @@ public static class LogAnalysis
         
         value = value.Replace("[", " ");
         value = value.Replace("]", " ");
-        string [] words = value.Split(" ");
-        return words[1];
+        string [] words = value.Trim().Split(" ");
+        return words[0];
     }
 }
