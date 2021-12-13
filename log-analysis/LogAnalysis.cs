@@ -24,14 +24,18 @@ public static class LogAnalysis
         int found2 = value.IndexOf(str2); //5
         value = value.Remove(found2);
         value = value.Remove(found1, str1.Length);
-            
+        // value = value.Trim();
+        string [] w = value.Split(" ");
+        int count = w.Length;
+        if(count >= 2){
+            return w[1];
+        }
         return value;
     }
     
     // TODO: define the 'Message()' extension method on the `string` type
     public static string Message(this string value){
         return value.SubstringAfter("[WARNING]: ");   
-   
     }
 
 
