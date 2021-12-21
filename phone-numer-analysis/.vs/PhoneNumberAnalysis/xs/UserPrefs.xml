@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{E47E8377-BE62-497E-9880-6CA001812FD0}|Default">
+  <MonoDevelop.Ide.ItemProperties.PhoneNumberAnalysis PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhoneNumberAnalysis.cs">
+    <Files>
+      <File FileName="PhoneNumberAnalysis.cs" Line="8" Column="26" />
+      <File FileName="PhoneNumberAnalysisTests.cs" Line="38" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PhoneNumberAnalysis" expanded="True">
+            <Node name="PhoneNumberAnalysis" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>phoneNumber</Value>
+          <Value>x</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PhoneNumberAnalysis" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Akio/Documents/GitHub/Exercism_Csharp/phone-numer-analysis/PhoneNumberAnalysis.cs" relfile="PhoneNumberAnalysis.cs" line="6" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
