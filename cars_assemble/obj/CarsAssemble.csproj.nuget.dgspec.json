@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Akio/Documents/GitHub/Exercism_Csharp/cars_assemble/CarsAssemble.csproj": {}
+    "C:\\Users\\aorihara\\Exercism\\csharp\\cars_assemble\\CarsAssemble.csproj": {}
   },
   "projects": {
-    "/Users/Akio/Documents/GitHub/Exercism_Csharp/cars_assemble/CarsAssemble.csproj": {
+    "C:\\Users\\aorihara\\Exercism\\csharp\\cars_assemble\\CarsAssemble.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Akio/Documents/GitHub/Exercism_Csharp/cars_assemble/CarsAssemble.csproj",
+        "projectUniqueName": "C:\\Users\\aorihara\\Exercism\\csharp\\cars_assemble\\CarsAssemble.csproj",
         "projectName": "CarsAssemble",
-        "projectPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/cars_assemble/CarsAssemble.csproj",
-        "packagesPath": "/Users/Akio/.nuget/packages/",
-        "outputPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/cars_assemble/obj/",
+        "projectPath": "C:\\Users\\aorihara\\Exercism\\csharp\\cars_assemble\\CarsAssemble.csproj",
+        "packagesPath": "C:\\Users\\aorihara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aorihara\\Exercism\\csharp\\cars_assemble\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/Akio/.config/NuGet/NuGet.Config"
+          "C:\\Users\\aorihara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
