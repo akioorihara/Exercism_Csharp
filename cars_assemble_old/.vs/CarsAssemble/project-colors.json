@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0fe3ec79-54d1-4639-8a13-dc137e10c635": {
+      "ProjectGuid": "0fe3ec79-54d1-4639-8a13-dc137e10c635",
+      "DisplayName": "CarsAssemble",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
