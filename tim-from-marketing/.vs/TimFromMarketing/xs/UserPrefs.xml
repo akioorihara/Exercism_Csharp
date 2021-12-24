@@ -1,3 +1,38 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{7BEDF454-FA38-481B-9630-0E6520D2B9EC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimFromMarketing.cs">
+    <Files>
+      <File FileName="TimFromMarketing.cs" Line="31" Column="1" />
+      <File FileName="TimFromMarketingTests.cs" Line="18" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TimFromMarketing" expanded="True">
+            <Node name="TimFromMarketing" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>department</Value>
+          <Value>name</Value>
+          <Value>id</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TimFromMarketing" expanded="True">
+            <Node name="TimFromMarketing" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimFromMarketing PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

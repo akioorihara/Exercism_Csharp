@@ -5661,11 +5661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Akio/Documents/GitHub/Exercism_Csharp/tim-from-marketing/TimFromMarketing.csproj",
+      "projectUniqueName": "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/tim-from-marketing/TimFromMarketing.csproj",
       "projectName": "TimFromMarketing",
-      "projectPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/tim-from-marketing/TimFromMarketing.csproj",
+      "projectPath": "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/tim-from-marketing/TimFromMarketing.csproj",
       "packagesPath": "/Users/Akio/.nuget/packages/",
-      "outputPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/tim-from-marketing/obj/",
+      "outputPath": "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/tim-from-marketing/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Akio/.config/NuGet/NuGet.Config"
