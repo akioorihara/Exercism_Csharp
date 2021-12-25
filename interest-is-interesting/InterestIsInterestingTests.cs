@@ -124,7 +124,7 @@ public class InterestIsInterestingTests
 
     [Fact]
     [Task(3)]
-    public void Annual_balance_update_for_empty_start_balance()
+    public void Annual_balance_update_for_empty_start_balance() 
     {
         Assert.Equal(0.0000m, SavingsAccount.AnnualBalanceUpdate(0.0m));
     }

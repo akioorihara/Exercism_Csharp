@@ -96,3 +96,4 @@
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/interest-is-interesting/obj/Debug/net6.0/ref/InterestIsInteresting.dll
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/interest-is-interesting/obj/Debug/net6.0/InterestIsInteresting.pdb
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/interest-is-interesting/obj/Debug/net6.0/InterestIsInteresting.genruntimeconfig.cache
+/Users/Akio/OneDrive/GitHub/Exercism_Csharp/interest-is-interesting/obj/Debug/net6.0/InterestIsInteresting.csproj.AssemblyReference.cache

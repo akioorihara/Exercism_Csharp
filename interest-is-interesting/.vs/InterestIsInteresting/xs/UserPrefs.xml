@@ -1,8 +1,8 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{7004E273-C4D7-43F8-AD3B-81AC1A3EEB9D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="InterestIsInteresting.cs">
     <Files>
-      <File FileName="InterestIsInteresting.cs" Line="29" Column="1" />
-      <File FileName="InterestIsInterestingTests.cs" Line="14" Column="1" />
+      <File FileName="InterestIsInteresting.cs" Line="36" Column="31" />
+      <File FileName="InterestIsInterestingTests.cs" Line="143" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +24,7 @@
           <Node name="InterestIsInteresting" expanded="True">
             <Node name="InterestIsInteresting" expanded="True">
               <Node name="InterestIsInterestingTests" expanded="True">
-                <Node name="Annual_balance_update_for_large_positive_start_balance" selected="True" />
+                <Node name="Annual_balance_update_for_average_positive_start_balance" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -32,6 +32,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.InterestIsInteresting PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
