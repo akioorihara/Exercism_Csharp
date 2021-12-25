@@ -4,7 +4,11 @@ static class SavingsAccount
 {
     public static float InterestRate(decimal balance)
     {
-        throw new NotImplementedException("Please implement the (static) SavingsAccount.InterestRate() method");
+
+
+        return 0.0f;
+
+        //throw new NotImplementedException("Please implement the (static) SavingsAccount.InterestRate() method");
     }
 
     public static decimal Interest(decimal balance)

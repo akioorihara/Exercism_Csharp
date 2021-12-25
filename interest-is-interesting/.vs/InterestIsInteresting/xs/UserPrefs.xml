@@ -1,3 +1,41 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="InterestIsInteresting.cs">
+    <Files>
+      <File FileName="InterestIsInteresting.cs" Line="29" Column="1" />
+      <File FileName="InterestIsInterestingTests.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InterestIsInteresting" expanded="True">
+            <Node name="InterestIsInteresting" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>department</Value>
+          <Value>name</Value>
+          <Value>id</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="InterestIsInteresting" expanded="True">
+            <Node name="InterestIsInteresting" expanded="True">
+              <Node name="InterestIsInterestingTests" expanded="True">
+                <Node name="Annual_balance_update_for_large_positive_start_balance" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
