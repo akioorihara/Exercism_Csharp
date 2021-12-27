@@ -50,8 +50,9 @@ static class SavingsAccount
         //Assert.Equal(0.0000m, SavingsAccount.AnnualBalanceUpdate(0.0m));
         //ssert.Equal(0.000001005m, SavingsAccount.AnnualBalanceUpdate(0.000001m));
         //Assert.Equal(1016.210000m, SavingsAccount.AnnualBalanceUpdate(1_000.0m));
-        decimal div = 100;
-        return balance + (Convert.ToDecimal(InterestRate(balance)) / div ) * balance;
+
+        return balance + Interest(balance);
+
 
 
     }
