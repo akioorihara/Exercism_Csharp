@@ -42,21 +42,27 @@ static class SavingsAccount
     {
         //Assert.Equal(6, SavingsAccount.YearsBeforeDesiredBalance(1_000.0m, 1_100.0m));
         int counter = 0;
-        while (true)
+        //while (true)
+        //{
+        //    if (balance < targetBalance)
+        //    {
+        //        balance = AnnualBalanceUpdate(balance);
+        //        counter++;
+
+        //    }
+        //    else
+        //    {
+        //        break;
+        //    }
+
+        //}
+        do
         {
-            if (balance < targetBalance)
-            {
                 balance = AnnualBalanceUpdate(balance);
                 counter++;
-
-            }
-            else
-            {
-                break;
-            }
-
         }
-    
+        while (balance < targetBalance);
+
         return counter;
     }
 }
