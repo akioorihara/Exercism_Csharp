@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{7004E273-C4D7-43F8-AD3B-81AC1A3EEB9D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../usr/local/share/dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InterestIsInteresting.cs">
     <Files>
-      <File FileName="InterestIsInteresting.cs" Line="76" Column="1" />
-      <File FileName="InterestIsInterestingTests.cs" Line="202" Column="1" />
-      <File FileName="../../../../../../usr/local/share/dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="267" Column="5" />
+      <File FileName="InterestIsInteresting.cs" Line="59" Column="11" />
+      <File FileName="InterestIsInterestingTests.cs" Line="194" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,15 +14,17 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>department</Value>
-          <Value>name</Value>
-          <Value>id</Value>
+          <Value>balance</Value>
+          <Value>targetBalance</Value>
+          <Value>counter</Value>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="InterestIsInteresting" expanded="True">
-            <Node name="InterestIsInteresting" expanded="True" />
+            <Node name="InterestIsInteresting" expanded="True">
+              <Node name="InterestIsInterestingTests" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -33,9 +34,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Akio/OneDrive/GitHub/Exercism_Csharp/interest-is-interesting/InterestIsInteresting.cs" relfile="InterestIsInteresting.cs" line="62" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
