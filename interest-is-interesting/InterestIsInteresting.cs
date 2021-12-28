@@ -8,15 +8,15 @@ static class SavingsAccount
     //2.475 % for a positive balance greater or equal than 5000 dollars.
     public static float InterestRate(decimal balance)
     {
-        if( balance < 0)
+        if (balance < 0)
         {
             return 3.213f;
         }
-        else if(balance < 1000)
+        else if (balance < 1000)
         {
             return 0.5f;
         }
-        else if(balance >=1000 && balance < 5000)
+        else if (balance >= 1000 && balance < 5000)
         {
             return 1.621f;
         }
@@ -24,62 +24,39 @@ static class SavingsAccount
         {
             return 2.475f;
         }
-
-        //throw new NotImplementedException("Please implement the (static) SavingsAccount.InterestRate() method");
     }
 
     public static decimal Interest(decimal balance)
     {
-        //Implement the(static) SavingsAccount.Interest() method to calculate the interest based on the specified balance:
-        //SavingsAccount.Interest(balance: 200.75m)
-        // 1.00375
         decimal divider = 100;
         return Convert.ToDecimal(InterestRate(balance)) * balance / divider;
-            //InterestRate(balance) * balance / 100.00F;
-
-
 
     }
 
     public static decimal AnnualBalanceUpdate(decimal balance)
     {
-        //Implement the(static) SavingsAccount.AnnualBalanceUpdate() method to calculate the annual balance update,
-        //taking into account the interest rate:
-        //SavingsAccount.AnnualBalanceUpdate(balance: 200.75m)
-        //201.75375m
-        //Assert.Equal(0.0000m, SavingsAccount.AnnualBalanceUpdate(0.0m));
-        //ssert.Equal(0.000001005m, SavingsAccount.AnnualBalanceUpdate(0.000001m));
-        //Assert.Equal(1016.210000m, SavingsAccount.AnnualBalanceUpdate(1_000.0m));
-
         return balance + Interest(balance);
-
-
-
     }
 
     public static int YearsBeforeDesiredBalance(decimal balance, decimal targetBalance)
     {
-        //Assert.Equal(47, SavingsAccount.YearsBeforeDesiredBalance(100.0m, 125.80m));
-        decimal tBalance = targetBalance;
-        decimal temp = 0;
-        int counter = 0; 
+        //Assert.Equal(6, SavingsAccount.YearsBeforeDesiredBalance(1_000.0m, 1_100.0m));
+        int counter = 0;
         while (true)
         {
-            if (temp < targetBalance)
+            if (balance < targetBalance)
             {
-                temp += Interest(balance);
+                balance = AnnualBalanceUpdate(balance);
                 counter++;
+
             }
             else
             {
-                break; 
+                break;
             }
-        }
 
-        //int counter = 0; 
-        //while (remainder > 0) {
-        //    tBalance -= ;
-        //}
-        return counter; 
+        }
+    
+        return counter;
     }
 }

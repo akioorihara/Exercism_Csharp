@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{7004E273-C4D7-43F8-AD3B-81AC1A3EEB9D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="InterestIsInteresting.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../usr/local/share/dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
     <Files>
-      <File FileName="InterestIsInteresting.cs" Line="36" Column="31" />
-      <File FileName="InterestIsInterestingTests.cs" Line="143" Column="9" />
+      <File FileName="InterestIsInteresting.cs" Line="76" Column="1" />
+      <File FileName="InterestIsInterestingTests.cs" Line="202" Column="1" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/6.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="267" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +22,9 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="InterestIsInteresting" expanded="True" selected="True" />
+          <Node name="InterestIsInteresting" expanded="True">
+            <Node name="InterestIsInteresting" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -30,7 +33,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Akio/OneDrive/GitHub/Exercism_Csharp/interest-is-interesting/InterestIsInteresting.cs" relfile="InterestIsInteresting.cs" line="62" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
