@@ -60,10 +60,26 @@ static class SavingsAccount
     public static int YearsBeforeDesiredBalance(decimal balance, decimal targetBalance)
     {
         //Assert.Equal(47, SavingsAccount.YearsBeforeDesiredBalance(100.0m, 125.80m));
-        decimal tBalance = targetBalance; 
-        while (remainder > 0) {
-            tBalance -= ;
+        decimal tBalance = targetBalance;
+        decimal temp = 0;
+        int counter = 0; 
+        while (true)
+        {
+            if (temp < targetBalance)
+            {
+                temp += Interest(balance);
+                counter++;
+            }
+            else
+            {
+                break; 
+            }
         }
-        return 0; 
+
+        //int counter = 0; 
+        //while (remainder > 0) {
+        //    tBalance -= ;
+        //}
+        return counter; 
     }
 }
