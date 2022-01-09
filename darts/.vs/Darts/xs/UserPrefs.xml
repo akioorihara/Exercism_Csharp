@@ -1,4 +1,4 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{53194BF4-83CE-4E30-8235-2A5CDD1E2370}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Darts.cs">
     <Files>
       <File FileName="DartsTests.cs" Line="1" Column="1" />
@@ -17,16 +17,13 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Darts" expanded="True" selected="True">
-            <Node name="Darts" expanded="True">
-              <Node name="DartsTests" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Darts" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Darts PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
