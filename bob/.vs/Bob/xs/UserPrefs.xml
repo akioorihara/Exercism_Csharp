@@ -1,3 +1,45 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BobTests.cs">
+    <Files>
+      <File FileName="BobTests.cs" Line="30" Column="11" IsPinned="True" />
+      <File FileName="Bob.cs" Line="35" Column="1" IsPinned="True" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bob" expanded="True">
+            <Node name="Bob" expanded="True">
+              <Node name="BobTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>statement</Value>
+          <Value>i</Value>
+          <Value>statement[i]</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Bob" expanded="True">
+            <Node name="Bob" expanded="True">
+              <Node name="BobTests" expanded="True">
+                <Node name="Shouting_with_special_characters" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/Bob.cs" relfile="Bob.cs" line="7" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
