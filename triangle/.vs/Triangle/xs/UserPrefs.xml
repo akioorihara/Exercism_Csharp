@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{88F775B1-71C9-4CE1-A745-16028B687880}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Triangle.cs">
     <Files>
-      <File FileName="Triangle.cs" Line="50" Column="51" />
+      <File FileName="Triangle.cs" Line="53" Column="1" />
       <File FileName="TriangleTests.cs" Line="110" Column="1" />
     </Files>
     <Pads>
@@ -23,11 +23,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Triangle" expanded="True">
-            <Node name="Triangle" expanded="True">
-              <Node name="TriangleTests" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Triangle" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

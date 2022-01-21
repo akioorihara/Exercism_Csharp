@@ -1,16 +1,14 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BobTests.cs">
+﻿<Properties StartupConfiguration="{3C841144-BC90-4DA4-BDA6-835DF07445D0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bob1.cs">
     <Files>
-      <File FileName="BobTests.cs" Line="30" Column="11" IsPinned="True" />
-      <File FileName="Bob.cs" Line="35" Column="1" IsPinned="True" />
+      <File FileName="BobTests.cs" Line="46" Column="29" IsPinned="True" />
+      <File FileName="Bob1.cs" Line="57" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bob" expanded="True">
-            <Node name="Bob" expanded="True">
-              <Node name="BobTests.cs" selected="True" />
-            </Node>
+            <Node name="Bob" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -23,11 +21,9 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Bob" expanded="True">
+          <Node name="Bob" expanded="True" selected="True">
             <Node name="Bob" expanded="True">
-              <Node name="BobTests" expanded="True">
-                <Node name="Shouting_with_special_characters" selected="True" />
-              </Node>
+              <Node name="BobTests" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -35,6 +31,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Bob PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>

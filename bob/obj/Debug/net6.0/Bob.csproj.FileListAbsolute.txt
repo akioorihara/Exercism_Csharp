@@ -1,7 +1,3 @@
-/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.GeneratedMSBuildEditorConfig.editorconfig
-/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.AssemblyInfoInputs.cache
-/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.AssemblyInfo.cs
-/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.csproj.CoreCompileInputs.cache
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/bin/Debug/net6.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/bin/Debug/net6.0/xunit.runner.reporters.netcoreapp10.dll
@@ -91,6 +87,10 @@
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.AssemblyInfoInputs.cache
+/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.AssemblyInfo.cs
+/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.csproj.CoreCompileInputs.cache
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.csproj.CopyComplete
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/Bob.dll
 /Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/Debug/net6.0/ref/Bob.dll
