@@ -2,7 +2,7 @@
 bob/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 *.json
 *.props
-*.cs
+.cs
 *.cache
 *.cache
 *.cache
