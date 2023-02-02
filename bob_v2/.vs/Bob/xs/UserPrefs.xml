@@ -1,34 +1,48 @@
 ﻿<Properties StartupConfiguration="{8D6E2315-4E19-4748-97D7-A1508E45D48D}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Bob PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HELP.md">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/bob_v2/Bob.cs" relfile="Bob.cs" line="18" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bob.cs">
     <Files>
-      <File FileName="Bob.cs" />
-      <File FileName="HELP.md" Line="5" Column="84" />
-      <File FileName="BobTests.cs" Line="48" Column="51" NotebookId="1" />
+      <File FileName="Bob.cs" Line="43" Column="29" />
+      <File FileName="HELP.md" Line="39" Column="121" />
+      <File FileName="BobTests.cs" Line="67" Column="6" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bob" expanded="True">
-            <Node name="Bob" expanded="True" />
+            <Node name="Bob" expanded="True">
+              <Node name="Bob.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Bob" expanded="True" selected="True">
+          <Node name="Bob" expanded="True">
             <Node name="Bob" expanded="True">
-              <Node name="BobTests" expanded="True" />
+              <Node name="BobTests" expanded="True">
+                <Node name="No_letters" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>statement</Value>
+          <Value>i</Value>
+          <Value>str</Value>
+          <Value>str[i]</Value>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>
