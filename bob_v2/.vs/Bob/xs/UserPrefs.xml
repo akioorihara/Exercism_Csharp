@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{8D6E2315-4E19-4748-97D7-A1508E45D48D}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Bob PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HELP.md">
+    <Files>
+      <File FileName="Bob.cs" />
+      <File FileName="HELP.md" Line="5" Column="84" />
+      <File FileName="BobTests.cs" Line="48" Column="51" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bob" expanded="True">
+            <Node name="Bob" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Bob" expanded="True" selected="True">
+            <Node name="Bob" expanded="True">
+              <Node name="BobTests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

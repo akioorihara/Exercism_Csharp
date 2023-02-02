@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/Bob.csproj": {}
+    "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/bob/Bob.csproj": {}
   },
   "projects": {
-    "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/Bob.csproj": {
+    "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/bob/Bob.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/Bob.csproj",
+        "projectUniqueName": "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/bob/Bob.csproj",
         "projectName": "Bob",
-        "projectPath": "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/Bob.csproj",
-        "packagesPath": "/Users/Akio/.nuget/packages/",
-        "outputPath": "/Users/Akio/OneDrive/GitHub/Exercism_Csharp/bob/obj/",
+        "projectPath": "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/bob/Bob.csproj",
+        "packagesPath": "/Users/akioorihara/.nuget/packages/",
+        "outputPath": "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/bob/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Akio/.config/NuGet/NuGet.Config"
+          "/Users/akioorihara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -61,16 +61,27 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.12, 6.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.12, 6.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
