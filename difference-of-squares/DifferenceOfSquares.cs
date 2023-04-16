@@ -4,16 +4,18 @@ public static class DifferenceOfSquares
 {
     public static int CalculateSquareOfSum(int max)
     {
-        throw new NotImplementedException("You need to implement this function.");
+
+        return 0;
     }
 
     public static int CalculateSumOfSquares(int max)
     {
-        throw new NotImplementedException("You need to implement this function.");
+
+        return 0;
     }
 
     public static int CalculateDifferenceOfSquares(int max)
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return CalculateSquareOfSum(max) - CalculateSumOfSquares(max);
     }
 }
