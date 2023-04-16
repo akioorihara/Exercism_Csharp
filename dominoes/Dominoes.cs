@@ -6,22 +6,18 @@ public static class Dominoes
 {
     public static bool CanChain(IEnumerable<(int, int)> dominoes)
     {
-        //var dominoes = new[] { (1, 2), (4, 1), (2, 3) };
-        //check the length and if > 2
-        //returns false 
-
+        //var dominoes = new[] { (1, 2), (1, 3), (2, 3) };
         int first = 0, second = 0;
-
         int counter = 0;
         foreach (var d in dominoes)
         {
             counter++;
 
-            if ((counter != 0 && first == d.Item1) || (counter != 0 && first == d.Item2)) 
+            if ((first == d.Item1) || (first == d.Item2)) 
             {
                 continue;
             }
-            else if((counter != 0 && first != 0) || (counter != 0 && first != 0))
+            else if(first != 0)
             {
                 return false;
             }
