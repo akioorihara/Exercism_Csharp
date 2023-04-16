@@ -1,30 +1,45 @@
 ﻿<Properties StartupConfiguration="{5014FA1C-00E5-42D7-B3A5-531E616A0824}|Default">
-  <MonoDevelop.Ide.ItemProperties.Dominoes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/dominoes/Dominoes.cs" relfile="Dominoes.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Dominoes.cs">
     <Files>
-      <File FileName="Dominoes.cs" Line="10" Column="2" />
+      <File FileName="Dominoes.cs" Line="43" Column="1" />
+      <File FileName="DominoesTests.cs" Line="45" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Dominoes" expanded="True">
-            <Node name="Dominoes" expanded="True">
-              <Node name="Dominoes.cs" selected="True" />
-            </Node>
+            <Node name="Dominoes" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Dominoes" expanded="True" />
+          <Node name="Dominoes" expanded="True">
+            <Node name="Dominoes" expanded="True">
+              <Node name="DominoesTests" expanded="True">
+                <Node name="Singleton_input_singleton_output" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>counter</Value>
+          <Value>d</Value>
+          <Value>d.Item1</Value>
+          <Value>d.Item2</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Dominoes PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
