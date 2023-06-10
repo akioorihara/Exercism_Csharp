@@ -1,17 +1,11 @@
 ﻿<Properties StartupConfiguration="{5C9E76A3-BE33-43A3-A011-AED6DB1DAE78}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/difference-of-squares/DifferenceOfSquares.cs" relfile="DifferenceOfSquares.cs" line="6" column="1" />
-      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/difference-of-squares/DifferenceOfSquares.cs" relfile="DifferenceOfSquares.cs" line="14" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.DifferenceOfSquares PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DifferenceOfSquares.cs">
     <Files>
-      <File FileName="DifferenceOfSquares.cs" Line="26" Column="2" />
-      <File FileName="DifferenceOfSquaresTests.cs" Line="45" Column="1" />
+      <File FileName="DifferenceOfSquares.cs" Line="29" Column="2" />
+      <File FileName="DifferenceOfSquaresTests.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,12 +26,13 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>max</Value>
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/difference-of-squares/DifferenceOfSquares.cs" relfile="DifferenceOfSquares.cs" line="6" column="1" />
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/difference-of-squares/DifferenceOfSquares.cs" relfile="DifferenceOfSquares.cs" line="13" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
