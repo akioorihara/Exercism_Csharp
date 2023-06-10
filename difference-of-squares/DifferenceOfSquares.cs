@@ -10,10 +10,7 @@ public static class DifferenceOfSquares
             x += i;
         }
         return x * x;
-        //var Sum = (max / 2) * (1 + max);
-        //var SquareOfSum = Convert.ToInt32(Math.Pow(Sum, 2));
-        //return SquareOfSum ;
-    }
+     }
 
     public static int CalculateSumOfSquares(int max)
     {
