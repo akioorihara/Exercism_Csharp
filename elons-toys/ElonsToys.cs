@@ -2,23 +2,40 @@ using System;
 
 class RemoteControlCar
 {
+    //20 meters and drains one percent of battries
+    //Start with 100$ of battries
+
+    public int battery = 100;
+    public int Driven = 0;
+
+
     public static RemoteControlCar Buy()
     {
-        throw new NotImplementedException("Please implement the (static) RemoteControlCar.Buy() method");
+
+        //private int _battery = 100;
+        //private int _Driven = 0;
+        return null;
     }
+
 
     public string DistanceDisplay()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.DistanceDisplay() method");
+        return "Driven " + Driven + " meters";
     }
 
     public string BatteryDisplay()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.BatteryDisplay() method");
+        if (battery <= 0) //at 0%
+        {
+            return "Battery empty";
+        }
+        return "Battery at " + battery;
     }
 
     public void Drive()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.Drive() method");
+        Driven += 20;
+        battery -= 1;
     }
+
 }
