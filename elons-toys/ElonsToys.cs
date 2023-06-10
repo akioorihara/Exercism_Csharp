@@ -12,15 +12,14 @@ class RemoteControlCar
     public static RemoteControlCar Buy()
     {
 
-        //private int _battery = 100;
-        //private int _Driven = 0;
-        return null;
+        //The below is important 
+        return new RemoteControlCar();
     }
 
 
     public string DistanceDisplay()
     {
-        return "Driven " + Driven + " meters";
+        return $"Driven {Driven} meters";
     }
 
     public string BatteryDisplay()
@@ -29,13 +28,16 @@ class RemoteControlCar
         {
             return "Battery empty";
         }
-        return "Battery at " + battery;
+        return $"Battery at {battery}";
     }
 
     public void Drive()
     {
-        Driven += 20;
-        battery -= 1;
+        if (battery > 0)
+        {
+            Driven += 20;
+            battery -= 1;
+        }
     }
 
 }
