@@ -1,3 +1,42 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{18E9A126-5B08-42CB-AD99-E20B95CDCD81}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/elons-toys/ElonsToysTests.cs" relfile="ElonsToysTests.cs" line="74" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ElonsToys PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ElonsToys.cs">
+    <Files>
+      <File FileName="ElonsToys.cs" Line="31" Column="35" />
+      <File FileName="ElonsToysTests.cs" Line="77" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ElonsToys" expanded="True">
+            <Node name="ElonsToys" expanded="True">
+              <Node name="ElonsToys.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ElonsToys" expanded="True">
+            <Node name="ElonsToys" expanded="True">
+              <Node name="ElonsToysTests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>car</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
