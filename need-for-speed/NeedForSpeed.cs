@@ -2,35 +2,67 @@ using System;
 
 class RemoteControlCar
 {
-    // TODO: define the constructor for the 'RemoteControlCar' class
+    private int speed;
+    private int batteryDrain;
+
+    private int battery = 100;
+    private int meterDriven = 0; 
+
+    public RemoteControlCar(int Speed, int BatteryDraid) {
+        this.speed = Speed;
+        this.batteryDrain = BatteryDraid;
+        this.meterDriven = 0;
+
+    }
+
+
 
     public bool BatteryDrained()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.BatteryDrained() method");
+        if(battery >= batteryDrain)
+            return false;
+        return true; 
     }
 
     public int DistanceDriven()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.DistanceDriven() method");
+        return meterDriven;
     }
 
     public void Drive()
     {
-        throw new NotImplementedException("Please implement the RemoteControlCar.Drive() method");
+        if(battery < 10)
+        {
+
+            //TODO: check if below X and if so, cannot drive 
+        }
+
+        meterDriven += speed;
+        battery -= batteryDrain;
+
+        //TODO: check speed in meters & drain battery by BatteryDrained()
+
     }
 
     public static RemoteControlCar Nitro()
     {
-        throw new NotImplementedException("Please implement the (static) RemoteControlCar.Nitro() method");
+        
+        return new RemoteControlCar(50, 0);
     }
 }
 
 class RaceTrack
 {
-    // TODO: define the constructor for the 'RaceTrack' class
+    private int distance; 
+    public RaceTrack(int Distance)
+    {
+        this.distance = Distance;
+
+    }
 
     public bool TryFinishTrack(RemoteControlCar car)
     {
-        throw new NotImplementedException("Please implement the RaceTrack.TryFinishTrack() method");
+        
+        return false;
     }
 }
