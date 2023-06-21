@@ -46,7 +46,7 @@ class RemoteControlCar
 
     public static RemoteControlCar Nitro()
     {
-        
+        //TODO: not completed yet 
         return new RemoteControlCar(50, 0);
     }
 }
@@ -62,6 +62,9 @@ class RaceTrack
 
     public bool TryFinishTrack(RemoteControlCar car)
     {
+        //TODO: 
+        //var batterRequired =  distance ;
+        
         
         return false;
     }
