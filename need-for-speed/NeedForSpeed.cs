@@ -60,8 +60,9 @@ class RaceTrack
 
     public bool TryFinishTrack(RemoteControlCar car)
     {
+       
         //TODO: 
-        var distanceBySpeed = this.distance / car.speed;
+        decimal distanceBySpeed = (distance / car.speed);
         var possibleDrain = distanceBySpeed * car.batteryDrain;
         if (possibleDrain >= car.battery)
             return true;
