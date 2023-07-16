@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{4489BB7D-2B19-4819-965B-08FBB89268D9}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.NeedForSpeed PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="NeedForSpeed.cs">
     <Files>
       <File FileName="NeedForSpeed.cs" Line="63" Column="53" />
@@ -16,24 +10,22 @@
         <State name="__root__">
           <Node name="NeedForSpeed">
             <Node name="NeedForSpeed">
-              <Node name="Dependencies" expanded="True" />
               <Node name="NeedForSpeed.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="NeedForSpeed">
-            <Node name="NeedForSpeed" expanded="True">
-              <Node name="NeedForSpeedTests" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="NeedForSpeed" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
