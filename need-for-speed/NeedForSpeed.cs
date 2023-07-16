@@ -12,7 +12,6 @@ class RemoteControlCar
         this.speed = Speed;
         this.batteryDrain = BatteryDraid;
         this.meterDriven = 0;
-
     }
 
 
@@ -31,15 +30,15 @@ class RemoteControlCar
 
     public void Drive()
     {
-        if(battery < 10)
+        if (battery < batteryDrain)
         {
 
-            //TODO: check if below X and if so, cannot drive 
         }
-
-        meterDriven += speed;
-        battery -= batteryDrain;
-
+        else
+        {
+            this.meterDriven += speed;
+            //this.battery -= batteryDrain; -- ?? not sure 
+        }
         //TODO: check speed in meters & drain battery by BatteryDrained()
 
     }
@@ -57,7 +56,6 @@ class RaceTrack
     public RaceTrack(int Distance)
     {
         this.distance = Distance;
-
     }
 
     public bool TryFinishTrack(RemoteControlCar car)
