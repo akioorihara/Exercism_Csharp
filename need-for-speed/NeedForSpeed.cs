@@ -2,10 +2,10 @@ using System;
 
 class RemoteControlCar
 {
-    private int speed;
-    private int batteryDrain;
+    public int speed;
+    public int batteryDrain;
 
-    private int battery = 100;
+    public int battery = 100;
     private int meterDriven = 0; 
 
     public RemoteControlCar(int Speed, int BatteryDraid) {
@@ -37,7 +37,7 @@ class RemoteControlCar
         else
         {
             this.meterDriven += speed;
-            //this.battery -= batteryDrain; -- ?? not sure 
+            this.battery -= batteryDrain; //-- ?? not sure 
         }
         //TODO: check speed in meters & drain battery by BatteryDrained()
 
@@ -45,8 +45,8 @@ class RemoteControlCar
 
     public static RemoteControlCar Nitro()
     {
-        //TODO: not completed yet 
-        return new RemoteControlCar(50, 0);
+        //TODO: How can I make it 4% - make it decimal? 
+        return new RemoteControlCar(50, 2);
     }
 }
 
@@ -61,8 +61,10 @@ class RaceTrack
     public bool TryFinishTrack(RemoteControlCar car)
     {
         //TODO: 
-        //var batterRequired =  distance ;
-        
+        var distanceBySpeed = this.distance / car.speed;
+        var possibleDrain = distanceBySpeed * car.batteryDrain;
+        if (possibleDrain >= car.battery)
+            return true;
         
         return false;
     }
