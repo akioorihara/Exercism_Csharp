@@ -1,14 +1,24 @@
 ﻿<Properties StartupConfiguration="{4489BB7D-2B19-4819-965B-08FBB89268D9}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/need-for-speed/NeedForSpeedTests.cs" relfile="NeedForSpeedTests.cs" line="165" column="1" />
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/need-for-speed/NeedForSpeedTests.cs" relfile="NeedForSpeedTests.cs" line="179" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NeedForSpeed PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="NeedForSpeed.cs">
     <Files>
-      <File FileName="NeedForSpeed.cs" Line="58" Column="34" />
-      <File FileName="NeedForSpeedTests.cs" Line="173" Column="1" NotebookId="1" />
+      <File FileName="NeedForSpeed.cs" Line="44" Column="1" />
+      <File FileName="NeedForSpeedTests.cs" Line="184" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NeedForSpeed">
             <Node name="NeedForSpeed">
+              <Node name="Dependencies" expanded="True" />
               <Node name="NeedForSpeed.cs" selected="True" />
             </Node>
           </Node>
@@ -23,25 +33,9 @@
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="NeedForSpeed">
-            <Node name="NeedForSpeed">
-              <Node name="NeedForSpeedTests">
-                <Node name="Car_can_finish_with_car_that_can_easily_finish - fa98b8b6-2a99-8e47-81c5-ee7fbe055602" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/need-for-speed/NeedForSpeedTests.cs" relfile="NeedForSpeedTests.cs" line="165" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.NeedForSpeed PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>
