@@ -1,3 +1,33 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{94000439-C674-460B-9A65-4F3FBB8720FB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookingUpForBeauty.cs">
+    <Files>
+      <File FileName="BookingUpForBeauty.cs" Line="30" Column="1" />
+      <File FileName="BookingUpForBeautyTests.cs" Line="39" Column="59" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookingUpForBeauty" expanded="True">
+            <Node name="BookingUpForBeauty" expanded="True">
+              <Node name="BookingUpForBeauty.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BookingUpForBeauty" expanded="True" selected="True">
+            <Node name="BookingUpForBeauty" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BookingUpForBeauty PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
