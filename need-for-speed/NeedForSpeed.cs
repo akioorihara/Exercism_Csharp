@@ -46,7 +46,7 @@ class RemoteControlCar
     public static RemoteControlCar Nitro()
     {
         //TODO: How can I make it 4% - make it decimal? 
-        return new RemoteControlCar(50, 2);
+        return new RemoteControlCar(50, 4);
     }
 }
 
@@ -60,13 +60,19 @@ class RaceTrack
 
     public bool TryFinishTrack(RemoteControlCar car)
     {
-       
+
         //TODO: 
-        decimal distanceBySpeed = (distance / car.speed);
-        var possibleDrain = distanceBySpeed * car.batteryDrain;
-        if (possibleDrain >= car.battery)
-            return true;
+        decimal distanceBySpeed = (distance / (decimal)car.speed);
+        var carFinish = car.batteryDrain * distanceBySpeed <= 100;
+        return carFinish;
+
+        //var possibleDrain = distanceBySpeed * car.batteryDrain;
+        //if (possibleDrain >= car.battery)
+        //    return true;
+
+        //return false;
         
-        return false;
+
+
     }
 }
