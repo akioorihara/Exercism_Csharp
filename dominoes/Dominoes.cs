@@ -6,33 +6,26 @@ public static class Dominoes
 {
     public static bool CanChain(IEnumerable<(int, int)> dominoes)
     {
-        //var dominoes = new[] { (1, 2), (1, 3), (2, 3) };
-        int first = 0, second = 0;
-        int counter = 0;
-        foreach (var d in dominoes)
+        if (dominoes.Count() != 0)
         {
-            counter++;
-
-            if ((first == d.Item1) || (first == d.Item2)) 
-            {
-                continue;
-            }
-            else if(first != 0)
-            {
-                return false;
-            }
-
-
-            first = d.Item1;
-            second = d.Item2;
-            
+            var chain = Connect(dominoes).ToArray();
+            return chain.Count() > 1 ? false : chain[0].Item1 == chain[0].Item2;
         }
-        if(counter < 2)
-        { return true; }
-
-
-
-
         return true;
+    }
+    public static IEnumerable<(int, int)> Connect(IEnumerable<(int, int)> dominoes)
+    {
+        if (dominoes.Count() == 1) return dominoes;
+        var chain = dominoes;
+        var matches = dominoes.Skip(1).Where(x => x.Item1 == dominoes.First().Item2 || x.Item2 == dominoes.First().Item2);
+        foreach (var match in matches)
+        {
+            var links = dominoes.Skip(1).ToList();
+            links.Remove(match);
+            var head = (dominoes.First().Item1, dominoes.First().Item2 == match.Item1 ? match.Item2 : match.Item1);
+            chain = Connect(links.Prepend(head));
+            if (chain.Count() == 1) return chain;
+        }
+        return chain;
     }
 }
