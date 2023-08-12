@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj": {}
+    "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/allergies/Allergies.csproj": {}
   },
   "projects": {
-    "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj": {
+    "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/allergies/Allergies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj",
+        "projectUniqueName": "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/allergies/Allergies.csproj",
         "projectName": "Allergies",
-        "projectPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/Allergies.csproj",
-        "packagesPath": "/Users/Akio/.nuget/packages/",
-        "outputPath": "/Users/Akio/Documents/GitHub/Exercism_Csharp/allergies/obj/",
+        "projectPath": "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/allergies/Allergies.csproj",
+        "packagesPath": "/Users/akioorihara/.nuget/packages/",
+        "outputPath": "/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/allergies/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/Akio/.nuget/NuGet/NuGet.Config"
+          "/Users/akioorihara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -60,7 +57,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }

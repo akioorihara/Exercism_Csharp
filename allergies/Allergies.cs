@@ -1,93 +1,38 @@
 using System;
 using System.Collections.Generic;
 
+
 public enum Allergen
 {
-    Eggs = 1,
-    Peanuts = 2,
-    Shellfish = 4,
-    Strawberries = 8,
-    Tomatoes = 16,
-    Chocolate = 32,
-    Pollen = 64,
-    Cats = 128
+    Eggs,
+    Peanuts,
+    Shellfish,
+    Strawberries,
+    Tomatoes,
+    Chocolate,
+    Pollen,
+    Cats
 }
-
 public class Allergies
 {
-    int Mask;
-    public List<string> list = new List<string>();
-
+    private int mask;
     public Allergies(int mask)
     {
-        Mask = mask;
+        this.mask = mask;
     }
-
     public bool IsAllergicTo(Allergen allergen)
     {
-        if (Mask <= 0)
-            return false;
-
-        while (Mask != 0 | Mask <= 0)
-        {
-            if (Mask >= (int)Allergen.Cats)
-            {
-                Mask = Mask - (int)Allergen.Cats;
-                list.Add(allergen.ToString());
-            }
-
-            if (Mask >= (int)Allergen.Pollen)
-            {
-                Mask = Mask - (int)Allergen.Pollen;
-                list.Add(allergen.ToString());
-            }
-
-            if (Mask >= (int)Allergen.Chocolate)
-            {
-                Mask = Mask - (int)Allergen.Chocolate;
-                list.Add(allergen.ToString());
-            }
-
-            if (Mask >= (int)Allergen.Tomatoes)
-            {
-                Mask = Mask - (int)Allergen.Tomatoes;
-                list.Add(allergen.ToString());
-            }
-            if (Mask >= (int)Allergen.Strawberries)
-            {
-                Mask = Mask - (int)Allergen.Strawberries;
-                list.Add(allergen.ToString());
-            }
-            if (Mask >= (int)Allergen.Shellfish)
-            {
-                Mask = Mask - (int)Allergen.Shellfish;
-                list.Add(allergen.ToString());
-            }
-            if (Mask >= (int)Allergen.Peanuts)
-            {
-                Mask = Mask - (int)Allergen.Peanuts;
-                list.Add(allergen.ToString());
-            }
-            if (Mask >= (int)Allergen.Eggs)
-            {
-                Mask = Mask - (int)Allergen.Eggs;
-                list.Add(allergen.ToString());
-            }
-
-        }
-
-        //return (list.Contains(allergen.ToString())) ? true : false 
-        if (list.Contains(allergen.ToString()))
-            return true;
-        else
-            return false;
-
-        throw new ArgumentException("Invalid Allergen");
-        //throw new NotImplementedException("You need to implement this function.");
+        int shift = (this.mask >> (int)allergen) & 1;
+        if (shift == 0) return false;
+        else return true;
     }
-
     public Allergen[] List()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        List<Allergen> allergens = new List<Allergen>();
+        for (int i = 0; i < 8; i++)
+        {
+            if (((mask >> i) & 1) == 1) allergens.Add((Allergen)i);
+        }
+        return allergens.ToArray();
     }
 }
