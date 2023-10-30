@@ -24,7 +24,7 @@ public class BookingUpForBeautyTests
     [Task(1)]
     public void Schedule_date_with_textual_month()
     {
-        Assert.Equal(new DateTime(2019, 6, 3, 11, 30, 0), Appointment.Schedule("June 3, 2019 11:30:00"));
+        Assert.Equal(new DateTime(2019, 6, 3, 11, 30, 0), Appointment.Schedule("7/25/2019 13:45:00"));
     }
 
     [Fact]

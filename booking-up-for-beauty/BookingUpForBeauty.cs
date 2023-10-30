@@ -4,26 +4,38 @@ static class Appointment
 {
     public static DateTime Schedule(string appointmentDateDescription)
     {
-        throw new NotImplementedException("Please implement the (static) Appointment.Schedule() method");
+        //"July 25, 2019 13:45:00"
+        //"7/25/2019 13:45:00"
+        //"Thursday, December 5, 2019 09:00:00"
+
+        //If String contains '/', replace it with ' ' and replace ':' with ' '
+        //If String contains ',', remove the first element as not relevant 
+        return DateTime.Parse(appointmentDateDescription);
+
     }
 
     public static bool HasPassed(DateTime appointmentDate)
     {
-        throw new NotImplementedException("Please implement the (static) Appointment.HasPassed() method");
+
+        return true; 
     }
 
     public static bool IsAfternoonAppointment(DateTime appointmentDate)
     {
-        throw new NotImplementedException("Please implement the (static) Appointment.IsAfternoonAppointment() method");
+
+
+        return true; 
     }
 
     public static string Description(DateTime appointmentDate)
     {
-        throw new NotImplementedException("Please implement the (static) Appointment.Description() method");
+
+        return null;
     }
 
     public static DateTime AnniversaryDate()
     {
-        throw new NotImplementedException("Please implement the (static) Appointment.AnniversaryDate() method");
+
+        return new DateTime(2019, 09, 09, 12, 12, 12);
     }
 }
