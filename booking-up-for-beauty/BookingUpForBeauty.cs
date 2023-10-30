@@ -7,9 +7,6 @@ static class Appointment
         //"July 25, 2019 13:45:00"
         //"7/25/2019 13:45:00"
         //"Thursday, December 5, 2019 09:00:00"
-
-        //If String contains '/', replace it with ' ' and replace ':' with ' '
-        //If String contains ',', remove the first element as not relevant 
         return DateTime.Parse(appointmentDateDescription);
 
     }
@@ -31,8 +28,9 @@ static class Appointment
 
     public static string Description(DateTime appointmentDate)
     {
+        var currentDateTime = DateTime.Now;
 
-        return null;
+        return "You have an appointment on " + currentDateTime;
     }
 
     public static DateTime AnniversaryDate()
