@@ -16,8 +16,10 @@ static class Appointment
 
     public static bool HasPassed(DateTime appointmentDate)
     {
-
-        return true; 
+        var currentDateTime = DateTime.Now;
+        if (currentDateTime >= appointmentDate)
+            return true;
+        return false; 
     }
 
     public static bool IsAfternoonAppointment(DateTime appointmentDate)
