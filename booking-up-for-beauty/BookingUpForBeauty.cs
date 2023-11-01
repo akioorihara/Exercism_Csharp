@@ -1,4 +1,5 @@
 using System;
+using Xunit;
 
 static class Appointment
 {
@@ -21,9 +22,12 @@ static class Appointment
 
     public static bool IsAfternoonAppointment(DateTime appointmentDate)
     {
-
-
-        return true; 
+        int StartTime = 12;
+        int EndTime = 18; 
+        var apptHour = appointmentDate.Hour;
+        if(apptHour >= StartTime && apptHour < EndTime)
+            return true;
+        return false; 
     }
 
     public static string Description(DateTime appointmentDate)
