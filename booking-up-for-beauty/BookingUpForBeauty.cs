@@ -37,7 +37,10 @@ static class Appointment
 
     public static DateTime AnniversaryDate()
     {
-
-        return new DateTime(2019, 09, 09, 12, 12, 12);
+        //Assert.Equal(new DateTime(DateTime.Now.Year, 9, 15), Appointment.AnniversaryDate());
+        var ThisYear = DateTime.Now.Year;
+        var AnnivMonth = 9;
+        var AnnivDay = 15; 
+        return new DateTime(ThisYear, AnnivMonth, AnnivDay);
     }
 }
