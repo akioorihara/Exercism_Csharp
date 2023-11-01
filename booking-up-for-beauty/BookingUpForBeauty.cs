@@ -28,13 +28,11 @@ static class Appointment
         if(apptHour >= StartTime && apptHour < EndTime)
             return true;
         return false; 
-    }
+    }   
 
     public static string Description(DateTime appointmentDate)
     {
-        var currentDateTime = DateTime.Now;
-
-        return "You have an appointment on " + currentDateTime;
+        return "You have an appointment on " + appointmentDate.ToString("M/d/yyyy h:mm:ss tt") + ".";
     }
 
     public static DateTime AnniversaryDate()
