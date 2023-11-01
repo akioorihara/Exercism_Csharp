@@ -5,14 +5,7 @@ static class Appointment
 {
     public static DateTime Schedule(string appointmentDateDescription)
     {
-        //"July 25, 2019 13:45:00"
-        //"7/25/2019 13:45:00"
-        //"Thursday, December 5, 2019 09:00:00"
-
-        //Assert.Equal(new DateTime(2019, 6, 3, 11, 30, 0), Appointment.Schedule("7/25/2019 13:45:00"));
-
         return DateTime.Parse(appointmentDateDescription);
-
     }
 
     public static bool HasPassed(DateTime appointmentDate)
