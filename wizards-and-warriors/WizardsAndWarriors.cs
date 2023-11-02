@@ -4,19 +4,19 @@ abstract class Character
 {
     protected Character(string characterType)
     {
-        throw new NotImplementedException("Please implement the Character() constructor");
+
     }
 
     public abstract int DamagePoints(Character target);
 
     public virtual bool Vulnerable()
     {
-        throw new NotImplementedException("Please implement the Character.Vulnerable() method");
+        return false; 
     }
 
     public override string ToString()
     {
-        throw new NotImplementedException("Please implement the Character.ToString() method");
+        return "";
     }
 }
 
@@ -28,7 +28,7 @@ class Warrior : Character
 
     public override int DamagePoints(Character target)
     {
-        throw new NotImplementedException("Please implement the Warrior.DamagePoints() method");
+        return 0;
     }
 }
 
@@ -40,11 +40,11 @@ class Wizard : Character
 
     public override int DamagePoints(Character target)
     {
-        throw new NotImplementedException("Please implement the Wizard.DamagePoints() method");
+        return 0;
     }
 
     public void PrepareSpell()
     {
-        throw new NotImplementedException("Please implement the Wizard.PrepareSpell() method");
+
     }
 }
