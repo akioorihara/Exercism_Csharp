@@ -24,12 +24,11 @@ static class Appointment
         if(apptHour >= StartTime && apptHour < EndTime)
             return true;
         return false; 
-    }   
+    }
 
     public static string Description(DateTime appointmentDate)
-    {
-        return "You have an appointment on " + appointmentDate.ToString("M/d/yyyy h:mm:ss tt") + ".";
-    }
+            => "You have an appointment on " +
+            appointmentDate.ToString("M/d/yyyy h:mm:ss tt") + ".";
 
     public static DateTime AnniversaryDate()
     {
