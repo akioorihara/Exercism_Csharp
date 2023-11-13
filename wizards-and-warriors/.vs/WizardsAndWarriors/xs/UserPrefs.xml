@@ -1,14 +1,21 @@
 ﻿<Properties StartupConfiguration="{98DB1040-2B29-4B73-ABF2-947212540A12}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WizardsAndWarriors PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="WizardsAndWarriors.cs">
     <Files>
-      <File FileName="WizardsAndWarriors.cs" Line="49" Column="6" />
+      <File FileName="WizardsAndWarriors.cs" Line="51" Column="1" />
       <File FileName="WizardsAndWarriorsTests.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WizardsAndWarriors">
-            <Node name="WizardsAndWarriors">
+          <Node name="WizardsAndWarriors" expanded="True">
+            <Node name="WizardsAndWarriors" expanded="True">
               <Node name="WizardsAndWarriors.cs" selected="True" />
             </Node>
           </Node>
@@ -16,16 +23,13 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="WizardsAndWarriors" expanded="True" selected="True" />
+          <Node name="WizardsAndWarriors" selected="True">
+            <Node name="WizardsAndWarriors" expanded="True">
+              <Node name="WizardsAndWarriorsTests" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WizardsAndWarriors PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
