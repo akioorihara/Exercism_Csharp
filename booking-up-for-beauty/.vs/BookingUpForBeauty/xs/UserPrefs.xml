@@ -1,37 +1,28 @@
 ﻿<Properties StartupConfiguration="{F7F00194-D615-466E-9D16-FA13FC481521}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookingUpForBeauty.cs">
-    <Files>
-      <File FileName="BookingUpForBeautyTests.cs" Line="18" Column="51" />
-      <File FileName="BookingUpForBeauty.cs" Line="8" Column="59" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BookingUpForBeauty">
-            <Node name="BookingUpForBeauty">
-              <Node name="BookingUpForBeauty.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__" />
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>appointmentDate</Value>
-          <Value>x</Value>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/booking-up-for-beauty/BookingUpForBeauty.cs" relfile="BookingUpForBeauty.cs" line="35" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BookingUpForBeauty PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookingUpForBeauty.cs">
+    <Files>
+      <File FileName="BookingUpForBeautyTests.cs" />
+      <File FileName="BookingUpForBeauty.cs" Line="8" Column="59" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookingUpForBeauty" expanded="True">
+            <Node name="BookingUpForBeauty" expanded="True">
+              <Node name="BookingUpForBeauty.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
