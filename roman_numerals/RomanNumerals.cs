@@ -21,6 +21,17 @@ public static class RomanNumeralExtension
                 return "IIII";
             }
         }
+        
+        // if one fo the values listed, convert and then return 
+
+
+
+        
+        //check if the prev value is smaller? 
+
+        //if so, get the value and then substract the value 
+        
+        
         return "";
     }
 }
