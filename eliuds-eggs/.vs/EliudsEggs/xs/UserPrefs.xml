@@ -1,23 +1,16 @@
 ﻿<Properties StartupConfiguration="{2094CFB9-1C8D-4052-A1E4-D6C72B43C0FF}|Default">
-  <MonoDevelop.Ide.ItemProperties.EliudsEggs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/eliuds-eggs/EliudsEggs.cs" relfile="EliudsEggs.cs" line="4" column="1" />
-      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/eliuds-eggs/EliudsEggs.cs" relfile="EliudsEggs.cs" line="9" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="EliudsEggs.cs">
     <Files>
-      <File FileName="EliudsEggs.cs" Line="12" Column="1" />
-      <File FileName="EliudsEggsTests.cs" Line="13" Column="6" />
+      <File FileName="EliudsEggs.cs" Line="13" Column="1" />
+      <File FileName="EliudsEggsTests.cs" Line="14" Column="50" />
+      <File FileName="README.md" Line="27" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EliudsEggs" expanded="True">
+          <Node name="EliudsEggs">
             <Node name="EliudsEggs">
               <Node name="EliudsEggs.cs" selected="True" />
             </Node>
@@ -26,18 +19,21 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="EliudsEggs">
+          <Node name="EliudsEggs" selected="True">
             <Node name="EliudsEggs" expanded="True">
               <Node name="EliudsEggsTests" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>encodedCount</Value>
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/eliuds-eggs/EliudsEggs.cs" relfile="EliudsEggs.cs" line="4" column="1" />
+      <Breakpoint file="/Users/akioorihara/Library/CloudStorage/OneDrive-Personal/GitHub/Exercism_Csharp/eliuds-eggs/EliudsEggs.cs" relfile="EliudsEggs.cs" line="16" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EliudsEggs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
 </Properties>
